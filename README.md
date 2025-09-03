@@ -1,4 +1,12 @@
-# credit-risk-classification
+# Credit Risk Predictive Modelling
+
+**TL;DR**  
+**Business problem:** Peer-to-peer lenders risk funding loans likely to default; even a small number of bad approvals can wipe out interest gains.  
+**Method:** Logistic Regression baseline with class weighting/SMOTE and threshold tuning to prioritize recall on high-risk loans; reproducible pipeline with tests and CI.  
+**Impact:** On sample data, ~0.95 balanced accuracy with ~0.90+ recall for the High-Risk class, enabling policy-driven cutoffs for manual review and reduced expected loss.
+
+
+
 Overview of the Analysis
 The primary objective of this analysis was to develop machine learning models to predict loan risk based on financial (i.e. lending) data.
 
